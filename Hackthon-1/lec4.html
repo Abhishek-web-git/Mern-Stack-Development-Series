@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecture-4</title>
+</head>
+<body>
+ <header>
+    <h1>Welcome to Lecture-4</h1>
+    <p>Learn MongoDB, Express, React, and Node.js with hands-on projects and step-by-step guidance by <b>Coder Army</b>.</p>
+    <h2><i>Start Your MERN Journey Today!</i></h2>
+  </header>
+  <hr>
+
+  <main>
+      <button><a href="index.html">Go To Home Page</a></button>
+      <button><a href="https://www.youtube.com/watch?v=k78lNSAB8VY&t=18s" target="_blank">Video Link For These Topic</a></button>
+
+      <div>
+        <h2>In This Lecture We Will Learn These Topics.</h2>
+        <table border="1">
+          <tr>
+            <th>Sl.No.</th>
+            <th>Topic Name</th>
+          </tr>
+          <tr>
+            <td>01</td>
+            <td>File Path in HTML</td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>HTML BoilerPlate Code</td>
+          </tr>
+          <tr>
+            <td>03</td>
+            <td>DIV</td>
+          </tr>
+            <tr>
+            <td>04</td>
+            <td>Class</td>
+          </tr>
+            <tr>
+            <td>05</td>
+            <td>Id</td>
+          </tr>
+        </table>
+
+      </div>
+      <div>
+        <h2>File Path System</h2>
+        <p><b>Step 1: The First Principle (The Fundamental Truth)</b><br>
+          The most fundamental truth is this: <i>A website is not one single file.</i><br>
+
+It's a collection of different files (HTML, CSS, JavaScript, images, videos, fonts) that all need to work together. These files are organized into folders, just like documents on your computer.</p>
+
+<p><b>Step 2: The Core Problem</b><br>
+
+Now we have a core problem: If your index.html file needs to display an image named logo.png, how does the HTML file tell the browser where to find logo.png?<br>
+
+You can't just say src="logo.png" and expect it to work every time. What if the logo is in an images folder? What if it's on a completely different website?<br>
+
+The browser needs an exact, unambiguous address to locate the file. <i>A file path is that address.</i></p>
+
+<h2>A. Relative File Paths (The Most Important for Your Projects)</h2>
+<p>A relative file path gives directions to a file starting from the location of the file you are currently in. You will use this 99% of the time for linking your own files together (images, CSS, other HTML pages).</p>
+
+<p>Here are the different scenarios:<br>
+<b>Scenario 1: Linking to a file in the SAME folder.</b><br>
+<ul>
+  <li><b>The Problem: </b>You are in index.html and want to link to about.html.</li>
+  <li><b>The Logic: </b>They are neighbors, living in the same my-website/ folder. The directions are as simple as possible.</li>
+  <li><b>The Syntax:</b> You just use the filename.</li>
+</ul></p>
+
+<p><b>Scenario 2: Linking to a file in a SUB-FOLDER (Going Down).</b><br>
+<ul>
+  <li><b>The Problem: </b>You are in index.html and want to display logo.png.</li>
+  <li><b>The Logic:</b> From index.html, you need to go into the images folder to find the logo.</li>
+  <li><b>The Syntax: </b>You write the folder name, a forward slash /, and then the filename.codeHtml</li>
+</ul></p>
+
+<p><b>Scenario 3: Linking to a file in a PARENT FOLDER (Going Up).</b><br>
+<ul>
+  <li><b>The Problem:</b> You are in contact.html (which is inside pages/) and you want to display logo.png (which is inside images/).</li>
+  <li><b>The Logic: </b>You can't go directly from pages/ to images/. You must first go up one level out of the pages folder to get back to the main my-website/ folder. From there, you can go down into the images folder.</li>
+  <li><b>The Syntax: </b>Two dots and a slash (../) means "go up one level."codeHtml</li>
+</ul></p>
+
+
+<h2>B. Absolute File Paths</h2>
+<p>An absolute file path gives the full, complete URL to a resource on the web. It starts with <b>http:// or https://</b> .<br>
+
+<b>When to use it:</b><br>
+
+You ONLY use absolute paths when you are linking to a resource that is <b>NOT on your own website.</b>
+<ul>
+  <li>Linking to another website.</li>
+  <li>Using a font from Google Fonts.</li>
+  <li>Using an image from an image-hosting service.</li>
+</ul></p>
+
+</div>
+<div>
+  <table border="1">
+    <caption><h2>Summary of Key Differences</h2></caption>
+    <tr>
+      <th>Feature</th>
+      <th>Windows</th>
+      <th>macOS/Linux</th>
+    </tr>
+    <tr>
+      <td>Starting Point (Root)</td>
+      <td>Drive Letter (e.g., C:\)</td>
+      <td>A single forward slash (/)</td>
+    </tr>
+    <tr>
+      <td>Directory Separator</td>
+      <td>Backslash (\)</td>
+      <td>Forward Slash (/)</td>
+    </tr>
+    <tr>
+      <td>Example</td>
+      <td>C:\Users\JohnDoe\Documents\report.docx</td>
+      <td>/Users/johndoe/Documents/report.docx</td>
+    </tr>
+  </table>
+</div>
+<h2>Q. What is Boiler Plate of HTML?</h2>
+<p>It sets up the standard tags and document structure so your page works properly in browsers.</p>
+<p><b>Explanation of parts:</b>
+<ul>
+  <li><b>!DOCTYPE html</b> → tells the browser this is an HTML5 document.</li>
+  <li><b>html lang="en"</b> → root element of the page, with language set to English.</li>
+  <li><b>head</b> → contains meta information, title, links, scripts, etc.</li>
+  <li><b>meta charset="UTF-8"</b> → sets character encoding (so text displays properly).</li>
+  <li><b>meta name="viewport" content="width=device-width, initial-scale=1.0"</b> → makes page responsive on mobile.</li>
+  <li><b>title</b> → sets the title shown in browser tab.</li>
+  <li><b>body</b> → the visible content of the webpage.</li>
+  
+</ul></p>
+<div>
+  <h2>-- But website work even without Boilerplate</h2>
+  <p><b>Browsers are Built to Be Extremely Forgiving.</b><br>
+Think about the early days of the web. It was a chaotic "Wild West." People wrote messy, incorrect, and incomplete HTML all the time. If browsers had been strict—if they had crashed or refused to render a page because of a missing tag—the web would have never taken off.<br>
+
+So, browser makers (like Netscape and Microsoft) made a crucial design decision: "When in doubt, guess."</p>
+
+</div>
+
+
+  </main>
+  <hr>
+   <footer>
+        <p>&copy; 2025 Abhishek Kumar. All rights reserved.</p>
+         <address>
+              Centurion University of Technology and Management Pralakhemundi, Odisha, India<br>
+               Phone: +91 6206679273 | ✉ Email: <a href="mailto:krabhishek735@gmail.com">krabhishek735@gmail.com</a>
+          </address>
+        <p>
+          Follow us:
+          <a href="https://www.instagram.com/its_your_abhi045/">Instagram</a> | 
+          <a href="https://www.facebook.com/profile.php?id=100052727388113">Facebook</a> | 
+          <a href="https://www.youtube.com/@Bodyrockboy">YouTube</a>
+        </p>
+  </footer>
+</body>
+</html>

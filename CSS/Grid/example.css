@@ -1,0 +1,94 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color: aqua;
+}
+.container{
+  background-color: brown;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer{
+  background-color: rgb(170, 161, 161);
+  height: 100px;
+  width: 100%;
+  display: flex;
+   align-items: center; 
+   justify-content: center;
+}
+.two{
+  background-color: azure;
+  flex-direction: row;
+  display: flex;
+  
+}
+.side{
+  background-color: rgb(42, 165, 165);
+  height: 500px;
+  width: 400px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bar{
+  /* background-color: brown; */
+  height: 500px;
+  width: 100%;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  flex-direction: column;
+}
+.ent{
+  /* background-color: chartreuse; */
+  height:250px;
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.con{
+  background-color: rgb(50, 48, 46);
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+}
+.content{
+  background-color: rgb(180, 59, 59);
+  width: 50%;
+  height: 100%;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tent{
+  background-color: rgb(125, 80, 191);
+  height: 100%;
+  width: 50%;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.font-effect-fire{
+  margin: 5px;
+  padding: 5px;
+  font-family: "Sofia", sans-serif;
+  font-size: 20px;
+}

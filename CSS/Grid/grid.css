@@ -1,0 +1,39 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-size: 30px;
+
+  
+}
+body{
+  background-color: black;
+}
+.container{
+  padding: 10px;
+  background-color: yellow;
+  display: grid;
+  /* grid-template-columns: 200px 200px;     // if i use this methode then calculation is dificult
+  grid-template-rows: 200px 200px; */
+  grid-template-columns: 1fr 1fr;               /* so i use friction methode for grid. */
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  height: 400px;
+  width: 400px;
+}
+.first{
+  background-color: red;
+}
+.second{
+  background-color: aqua;
+}
+.third{
+  background-color: blue;
+}
+.fourth{
+  background-color: orange;
+}
+h4{
+  background: fixed;
+  color: red;
+  font-size: 10px;
+}

@@ -1,0 +1,87 @@
+*{
+  margin:0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  /* kisi bhi chiz ko center me lane ke liye */
+
+ }
+.container{
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 10px;
+  padding: 10px;
+  width: 600px;
+  height: 600px;
+  background-color: cornflowerblue;
+  
+}
+.Abhishek{
+  background-color: aqua;
+  grid-row: 1/4;
+  justify-content:center;
+  align-items:center;
+  display:flex;
+
+
+}
+.Vivek{
+  grid-column: 2/4;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Rajan{
+  grid-column: 4/5;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.Shobha{
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+.Shrestha{
+  background-color: deeppink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Anisha{
+  background-color: chocolate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.Ruhi{
+  background-color: darkslateblue;
+  grid-row: 2/4;
+  grid-column: 4/5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+.Tannu{
+  background-color: black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+h3{
+  color: aliceblue;
+  margin-bottom: 20px;
+}

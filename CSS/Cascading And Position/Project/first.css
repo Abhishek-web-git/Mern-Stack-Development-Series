@@ -1,0 +1,30 @@
+h2{
+  background-color: antiquewhite;
+  justify-content: center;
+  text-align: center;
+  
+}
+#flag{
+  background-color: aliceblue;
+  height: 300px;
+  width: 500px;
+  position: relative;
+  left: 30%;
+  top:60px;
+
+}
+#paat{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  left: 150px;
+  top: 50px;
+
+}
+span{
+  position: relative;
+  top:100px;
+  left: 40%;
+}

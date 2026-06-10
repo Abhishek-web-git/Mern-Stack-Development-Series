@@ -1,0 +1,25 @@
+h1{
+  background-color: aliceblue;
+  text-align: center;
+  /* justify-content: center; */
+}
+#container{
+  height: 300px;
+  width: 500px;
+  background-color: white;
+  position: relative;
+  left: 30%;
+
+}
+#orange{
+  height: 100px;
+  width: 500px;
+  background-color: orangered;
+}
+#green{
+  height: 100px;
+  width: 500px;
+  background-color: green;
+  position: absolute;
+  bottom: 0%;
+}

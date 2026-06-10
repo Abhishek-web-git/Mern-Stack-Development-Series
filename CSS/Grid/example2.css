@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  padding: 10px;
+  width: 600px;
+  height: 600px;
+}
+.Box{
+  background-color: rgb(255, 196, 0);
+}
+.first{
+  grid-row: 1/4;
+  background-color: green;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: aliceblue;
+}
+.second{
+  grid-column: 2/4;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+}
+.six{
+  grid-row: 2/4;
+  grid-column: 4/5;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: bisque;
+}
+.third{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fourth{
+  background-color: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eight{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fifth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seven{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

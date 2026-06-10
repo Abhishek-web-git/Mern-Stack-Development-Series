@@ -1,0 +1,79 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+  background-color: bisque;
+  height: 700px;
+  width: 1000px;
+} */
+h1{
+  text-align: center;
+  font-style: italic;
+  height: 100px;
+  background-color: aqua;
+  margin-top: 0px;
+  padding: 0%;
+
+}
+.s{
+  padding-left: 1200px;
+  position: relative;
+  top: auto;
+  right: auto;
+}
+.A{
+  background-color: aqua;
+  box-shadow: 0cqi;
+}
+#b{
+  background-color: brown;
+}
+#c{
+  background-color: burlywood;
+}
+#d{
+  background-color: red;
+}
+/* .abs{
+  background-color: aliceblue;
+  position: absolute;
+  left: 30px;
+  right: 40px;
+}
+.sta{
+  background-color: aqua;
+  position: relative;
+  margin-top: 20px;
+}
+.rel{
+  background-color: rgb(216, 117, 117);
+  position: fixed;
+}
+.fix{
+  background-color: chocolate;
+  position: sticky;
+  left: 90px;
+}
+.sti{
+  background-color: brown;
+  position: static;
+  left: 70px;
+  top: 40px;
+} */
+/* .tie{
+  background-color: aqua;
+}
+.imp{
+  background-color: chartreuse;
+}
+.id{
+  background-color: brown;
+}
+.css{
+  background-color: blueviolet;
+}
+.class{
+  background-color: aquamarine;
+}
+.tag{
+  background-color: blue;
+} */

@@ -1,0 +1,30 @@
+h1{
+  font-size: 100px;
+  text-align: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  text-shadow: 0cm;
+}
+#social{                     /* id ko use karne ke liye (#) ka use karte h*/
+  background-color: brown;
+  width: 200px;
+  font-size: 92%;
+  
+}
+.footer{                            /* class ko use karne ke liye (.) laga ke css me use karte h */
+  background-color: aqua;
+}
+p{
+  background-color: aqua;
+  font-size: 20px;
+}
+h2{
+  background-color: rgb(195, 192, 13);
+}
+#news{
+  font-family: cursive;
+  background-color: cadetblue;
+  width: 200px;
+  padding: auto;
+  box-shadow: inset;
+}

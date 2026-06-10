@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lecture-5</title>
+</head>
+<body>
+ <header>
+    <h1>Welcome to Lecture-5</h1>
+    <p>Learn MongoDB, Express, React, and Node.js with hands-on projects and step-by-step guidance by <b>Coder Army</b>.</p>
+    <h2><i>Start Your MERN Journey Today!</i></h2>
+  </header><hr>
+  <main>
+      <button><a href="index.html">Go To Home Page</a></button>
+      <button><a href="https://www.youtube.com/watch?v=a4j9R_DvZ8M&t=131s" target="_blank">Video Link For These Topic</a></button>
+
+      <h1>In This Lecture we Learn How to Create a Form in HTML.</h1>
+      <h2>*These are the Topics we will cover iin this Lecture.</h2>
+      <ul>
+        <li><a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">HTML Forms</a></li>
+        <li><a href="https://www.w3schools.com/html/html_forms_attributes.asp" target="_blank">HTML Form Attributes</a></li>
+        <li><a href="https://www.w3schools.com/html/html_form_elements.asp" target="_blank">HTML Form Elements</a></li>
+        <li><a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">HTML Input Types</a></li>
+        <li><a href="https://www.w3schools.com/html/html_form_attributes.asp" target="_blank">HTML Input Attributes</a></li>
+        <li><a href="https://www.w3schools.com/html/html_form_attributes_form.asp" target="_blank">Input Form Attributes</a></li>
+      </ul>
+      <p>You Can Directly Click the Link and Read the How Can Create HTML Form.</p>
+
+      <div>
+        <h3>Q. What is <a href="https://www.w3schools.com/html/html_forms.asp">HTML Form</a>?</h3>
+        <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p>
+
+        <h3>1. The Core Problem</h3>
+        <p>How do we create a standardized, reliable system to:
+          <ol>
+            <li>Display interactive fields for a user to fill in (text boxes, checkboxes, dropdowns).</li>
+            <li>Package the user's data neatly.</li>
+            <li>Send that package to a specific destination on a server.</li>
+            <li>Tell the server how the data is being sent.</li>
+          </ol><br>The logical solution to this entire problem is the HTML form.
+        </p>
+
+        <h3>2. The input Element: The Box for Your Stuff</h3>
+        <p>This is the most common form tag. It's a self-closing tag that creates an input field. Its behavior changes based on its type attribute.<br>The most basic type is text.</p>
+
+        <h3>3. The Need for Meaning - The label tag.</h3>
+        <p>The Problem:** We have a box, but the user has no idea what they are supposed to type into it. Is it for a name? An email? A search query? The box is meaningless without a description.<br>The Solution: We need to add a descriptive piece of text. The correct HTML tag for this is the label tag. It's a tag specifically designed to be the title for a form field.</p>
+      </div>
+
+      <div>
+        
+    <form>
+    <h1>University Registration Form Example: </h1>
+    <p>Please fill out the form below to register.</p>
+    <hr>
+
+    <h2>Personal Details</h2>
+    
+    <label for="first">First Name: </label>
+    <input type="text" id="first" placeholder="Enter Your First Name" name="userName"><br><br>
+    
+    
+  
+    <label for="last">Last Name: </label>
+    <input type="text" id="last" placeholder="Enter Your Last Name" name="userLast"><br><br>
+
+    <label for="dob">Date of Birth: </label>
+    <input type="date" id="dob" placeholder="Enter Date of Birth" name="userDob">
+    <br><br>
+
+    <label>Gender: </label><br>
+    <input type="radio" value="male" name="gender" id="male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" value="female" name="gender" id="female">
+    <label for="female">Female</label><br>
+
+    <input type="radio" value="other" name="gender" id="other">
+    <label for="other">Other</label>
+    <br><br>
+ 
+    <label for="file">Upload your Photo:</label><br>
+    <input type="file" id="file" name="userPhoto">
+    <hr>
+
+    <h2>Contact Information</h2>
+    <label for="email">Email Address: </label>
+    <input type="email" id="email" placeholder="Enter Your Email" name="userEmail"><br><br>
+
+    <label for="phone">Phone Number: </label>
+    <input type="tel" id="phone" placeholder="Enter Your Phone number" name="phone">
+    <br><br>
+
+    <label for="feedback">Mailing Address: </label><br>
+    <textarea name="text" id="feedback" placeholder="Street Address, City, State, ZIP Code"></textarea>
+
+    <hr>
+
+    <h2>Academic Information</h2>
+
+
+    <fieldset>
+    <label for="subject">Select Your Courses: </label><br>
+    <select name="subject" id="subject">
+      <option value="">Choose Your Course!</option>
+      <option value="cse" name="subject">Computer Science Engineering</option>
+      <option value="me" name="subject">Mechanical Engineering</option>
+      <option value="ce" name="subject">Civil Engineering</option>
+      <option value="eee" name="subject">Electrical Electronic Engineering</option>
+      <option value="other" name="subject">Other Branches</option>
+    </select>
+    </fieldset>
+    <br><br>
+
+
+    <label>Extracurricular Activities: </label><br>
+    
+    <input type="checkbox" name="interest" id="sport" value="sport">
+    <label for="sport">Sports</label>
+    <br>
+
+    <input type="checkbox" name="interest" id="music" value="music">
+    <label for="music">Music & Arts</label>
+    <br>
+
+    <input type="checkbox" name="interest" id="technology" value="technology">
+    <label for="technology">Technology Clubs</label>
+    <br>
+
+    <input type="checkbox" name="interest" id="volunteer" value="volunteer">
+    <label for="volunteer">Volunteering</label>
+    <br>
+    <hr>
+
+    <h2>Create Your Account</h2>
+    <label for="pass">Create a Password: </label>
+    <input type="password" id="pass" placeholder="Create Your Password" name="userPass"><br><br>
+
+    <label for="security">Security Answer: </label>
+    <input type="text" id="security" name="securityAnswer">
+    <br><br>
+
+
+    <label for="sec">Security Questions:</label>
+    <select name="securityQuestion" id="sec">
+      <option value="pet">What was your first pet's name.</option>
+      <option value="friend">What was your first friend name.</option>
+      <option value="child">What was your first childhood name.</option>
+
+    </select><br><br>
+
+    <input type="checkbox" id="check" name="agreement">
+    <label for="check">I agree to the Terms and Conditions.</label>
+    <hr>
+
+    <button type="submit">Register</button>
+    <button type="reset">Clear Form</button>
+
+
+  </form>
+  </div>
+
+  </main>
+  <hr>
+   <footer>
+        <p>&copy; 2025 Abhishek Kumar. All rights reserved.</p>
+         <address>
+              Centurion University of Technology and Management Pralakhemundi, Odisha, India<br>
+               Phone: +91 6206679273 | ✉ Email: <a href="mailto:krabhishek735@gmail.com">krabhishek735@gmail.com</a>
+          </address>
+        <p>
+          Follow us:
+          <a href="https://www.instagram.com/its_your_abhi045/">Instagram</a> | 
+          <a href="https://www.facebook.com/profile.php?id=100052727388113">Facebook</a> | 
+          <a href="https://www.youtube.com/@Bodyrockboy">YouTube</a>
+        </p>
+  </footer>
+</body>
+</html>
