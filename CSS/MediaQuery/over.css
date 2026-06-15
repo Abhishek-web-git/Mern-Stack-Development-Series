@@ -1,0 +1,28 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container{
+  background-color: burlywood;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 20px;
+  width: 400px;
+  height: 250px;
+  overflow: scroll;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px black;
+
+}
+p{
+  font-variant: small-caps;
+}
+h2{
+  color:indianred;
+  font-variant: small-caps;
+  font-family:cursive;
+}
